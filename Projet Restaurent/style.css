@@ -319,6 +319,13 @@ width: 50%;
 .food-description {
   margin: auto 1.5rem;
 }
+.food-description .food-titile {
+  cursor: pointer;
+ 
+}
+.details-article {
+  display:none;
+}
 
 .font-title {
   font-size: 1.8rem;
