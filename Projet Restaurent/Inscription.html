@@ -1,0 +1,97 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="styleinscription.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#NotreCarte">Notre Carte</a></li>
+                <li><a href="#Login">Login</a></li>
+                <li><a href="#Inscription">Inscription</a></li>
+            </ul>
+            <h1 class="logo">Restaurant</h1>
+        </div>
+    </nav>
+  
+    <div class="cont">
+        <div class="form sign-in">
+            <h2>Welcome</h2>
+            <label>
+                <span>Email</span>
+                <input type="email" />
+            </label>
+            <label>
+                <span>Password</span>
+                <input type="password" />
+            </label>
+            <p class="forgot-pass">Forgot password?</p>
+            <button type="button" class="submit">Sign In</button>
+         
+        </div>
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img__text m--up">
+                 
+                    <h3>Vous n'avez pas de compte? <br>Inscrivez vous!<h3>
+                </div>
+                <div class="img__text m--in">
+                
+                    <h3>Vous avez deja un compte?<br> Connectez vous!<h3>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">Inscription</span>
+                    <span class="m--in">Connexion</span>
+                </div>
+            </div>
+            <div class="form sign-up">
+                <h2>Create your Account</h2>
+                <label>
+                    <span>Nom</span>
+                    <input type="text" />
+                </label>
+                <label>
+                    <span>Prenom</span>
+                    <input type="text" />
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" />
+                </label>
+                <label>
+                    <span>Adresse</span>
+                    <input type="email" />
+                </label>
+                <label>
+                    <span>Mot de passe</span>
+                    <input type="password" />
+                </label>
+                <button type="button" class="submit">Sign Up</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.img__btn').addEventListener('click', function() {
+            document.querySelector('.cont').classList.toggle('s--signup');
+        });
+    </script>
+   
+
+</body>
+<footer id="footer">
+    <h2>Restaurant &copy; all rights reserved</h2>
+</footer>
+</html>
