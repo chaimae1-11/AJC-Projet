@@ -195,6 +195,7 @@ top:0;
   margin: auto;
   object-fit: cover;
   object-position: right;
+ 
 }
 
 /* ..........////Food category///........... */
@@ -287,6 +288,12 @@ top:0;
   color: #666;
 }
 
+
+.food-img img{
+width: 50%;
+}
+
+
 .food-menu-container {
   display: flex;
   flex-wrap: wrap;
@@ -295,8 +302,8 @@ top:0;
 
 .food-menu-container img {
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
@@ -305,7 +312,7 @@ top:0;
 .food-menu-item {
   display: flex;
   flex: 1 1 600px;
-  justify-content: space-evenly;
+  justify-content: left;
   margin-bottom: 3rem;
 }
 
@@ -320,7 +327,7 @@ top:0;
 }
 
 .food-description p {
-  font-size: 1.4rem;
+  font-size: 1 rem;
   color: #555;
   font-weight: 500;
 }
