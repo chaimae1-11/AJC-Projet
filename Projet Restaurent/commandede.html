@@ -38,10 +38,11 @@
 .float-right {
     display: flex;
     float: right;
-   
+    background: aliceblue;
 }
 .float-right h1  {
     font-size: 25px;
+ 
 }
 .body {
      
@@ -49,6 +50,19 @@
       background-size: cover; /* Ajuste la taille de l'image pour couvrir l'ensemble de la div */
             background-position: center;
             padding: 20px;
+    }
+    .col-md-9 h4 {
+        font-size: 17px;
+    }
+    .col-lg-12 h3 {
+        font-family: "Berkshire Swash", cursive;
+        font-weight: 400;
+        color: inherit;
+    }
+    .mb-3 a{
+
+       
+    font-size: 20px;
     }
     </style>
 </head>
@@ -68,6 +82,7 @@
                               <th style="width:60%">Article</th>
                               <th style="width:12%">Prix</th>
                               <th style="width:10%">Quantite</th>
+                              <th style="width:10%">Prix total </th>
                               <th style="width:16%"></th>
                           </tr>
                       </thead>
@@ -87,14 +102,7 @@
                                   <input type="number" class="form-control form-control-lg text-center" value="1">
                               </td>
                               <td class="actions" data-th="">
-                                  <div class="text-right">
-                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
-                                          <i class="fas fa-sync"></i>
-                                      </button>
-                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
-                                          <i class="fas fa-trash"></i>
-                                      </button>
-                                  </div>
+                                 
                               </td>
                           </tr>
                           <tr>
@@ -112,14 +120,7 @@
                                   <input type="number" class="form-control form-control-lg text-center" value="1">
                               </td>
                               <td class="actions" data-th="">
-                                  <div class="text-right">
-                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
-                                          <i class="fas fa-sync"></i>
-                                      </button>
-                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
-                                          <i class="fas fa-trash"></i>
-                                      </button>
-                                  </div>
+                                
                               </td>
                           </tr>
                           <tr>
@@ -137,14 +138,7 @@
                                   <input type="number" class="form-control form-control-lg text-center" value="1">
                               </td>
                               <td class="actions" data-th="">
-                                  <div class="text-right">
-                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
-                                          <i class="fas fa-sync"></i>
-                                      </button>
-                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
-                                          <i class="fas fa-trash"></i>
-                                      </button>
-                                  </div>
+                                
                               </td>
                           </tr>
                       </tbody>
@@ -157,7 +151,7 @@
           </div>
           <div class="row mt-4 d-flex align-items-center">
               <div class="col-sm-6 order-md-2 text-right">
-                  <a href="catalog.html" class="btn btn-primary mb-4 btn-lg pl-5 pr-5"><i class='fas fa-check fa-sm' style='color:#47a6e1'></i>Valider la commande</a>
+                  <a href="catalog.html" class="btn btn-success mb-4 btn-lg pl-5 pr-5">Valider la commande<i class='fas fa-check fa-sm' style='color:#070707'></i></a>
                  
               </div>
               <div class="col-sm-6 mb-3 mb-m-1 order-md-1 text-md-left">
